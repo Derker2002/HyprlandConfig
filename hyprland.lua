@@ -9,3 +9,6 @@ require("monitors")
 require("permissions")
 require("windows")
 require("workspaces")
+
+-- HyprMod managed settings
+require("hyprland-gui")
