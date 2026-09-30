@@ -19,7 +19,6 @@ hl.config({
     gestures = {
         workspace_swipe_direction_lock = false,
         workspace_swipe_distance = 100,
-        workspace_swipe_forever = true,
     },
     input = {
         numlock_by_default = true,
@@ -59,4 +58,21 @@ hl.animation({
     enabled = true,
     speed = 1.0,
     bezier = "easeInSine",
+})
+
+-- Monitors
+hl.monitor({
+    output = "HDMI-A-1",
+    disabled = false,
+    mode = "2560x1440@144.00Hz",
+    position = "-320x-1440",
+    scale = 1,
+    cm = "srgb",
+    sdrbrightness = 0.5,
+    sdrsaturation = 0.24,
+    sdr_min_luminance = 0,
+    sdr_max_luminance = 418,
+    min_luminance = 0,
+    max_luminance = 2000,
+    max_avg_luminance = 418,
 })
